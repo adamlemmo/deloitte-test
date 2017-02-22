@@ -49,7 +49,11 @@ The carousel was built entirely by myself, it functions largely using the jQuery
 
 Here’s a diagram describing the anatomy of the carousel.
 
-![alt tag](http://adamlemmo.com/deloitte-test/readme-img/carousel-anatomy.png)
+<div style="text-align:center"><img src="http://adamlemmo.com/deloitte-test/readme-img/carousel-anatomy.png"></div>
+
+1.	Back arrow
+2.	Left arrow
+3.	Carousel menu
 
 By default, the carousel automatically animates, but this can be easily switched off if required.
 
