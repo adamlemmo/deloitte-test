@@ -2,7 +2,7 @@
 
 ##Introduction
 
-The brief was to create a page based on a Photoshop PSD located here:-
+The brief was to create a page based on a Photoshop PSD and jpeg files located here:-
 
 > https://www.dropbox.com/s/i2utt71o8orb0mj/Deloitte%20PSD.zip?dl=0.
 
