@@ -6,7 +6,7 @@ The brief was to create a page based on a Photoshop PSD and jpeg files located h
 
 > https://www.dropbox.com/s/i2utt71o8orb0mj/Deloitte%20PSD.zip?dl=0.
 
-And a description indicating the following:-
+And a description indicating the following (just the major points):-
 
 > * Browser requirements are desktop IE11+, latest versions of Chrome, Firefox, Edge. Please let us know which browser you’ve used to develop in (e.g. Chrome/Firefox)
 * This site is responsive with a minimum size of 320px and at least should support iPad portrait and landscape.
