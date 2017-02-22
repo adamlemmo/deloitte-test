@@ -2,7 +2,7 @@
 
 >  Note:- A Word document has been created of this document with nicer formatting, go here:-  [deloitte-adamlemmo-2017-02-22-readme.doc](deloitte-adamlemmo-2017-02-22-readme.doc) (although this readme will be more up to date).
 
-##Files included:- 
+##A description of the files included:- 
 
 | File name and path       | Description           | 
 |:------------- |:-------------| 
