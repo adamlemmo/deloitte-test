@@ -60,7 +60,7 @@ The Javascript has been written in such a way as to allow for more than the defa
 #Customisation
 
 ##Adding a slide
-Duplication of the div tag with the `slide` class below, will result in a new slide being added to the carousel. The two classes, `slide` and `slide-content` are mandatory for optimal appearance.
+Duplication of the div tag with the `slide` class below, will result in a new slide being added to the carousel. The two classes, `slide` and `slide-content` are mandatory for the optimal appearance of a slide.
 ```html
 <!-- carousel -->
 <div class="container carousel">
