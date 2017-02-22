@@ -34,7 +34,7 @@ I have written all of the HTML myself, using the Bootstrap grid as a basis. I ha
 #CSS
 The css of this page uses Bootstrap as a starting point, mainly for its responsive grid system. I have included a custom CSS file that adds new classes and overrides some Bootstrap styles, the majority of the work has been done in the css/deloitte-test.css css file.
 #Javascript
-I have written all of the Javascript in the js/carousel.js and js/modal.js files. I have separated these out into their own files for more targeted editing of each given functionality.
+I have written all of the Javascript in the carousel.js and modal.js files. I have separated these out into their own files for more targeted editing of each given functionality.
 Accessibility
 Accessibility has been considered in that all elements that link to something are using an <a href=”#”> so as to expose these to assistive technologies. No custom tab order has been used, all elements should naturally flow with the normal tab behavior of the browser. Also the <figure> and <figcaption> tags have been used as mentioned above, in an attempt to relate the captions to their respective images.
  
