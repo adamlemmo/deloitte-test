@@ -115,7 +115,7 @@ The contents of the div with the slide-content class can be modified with specif
 At the bottom of the [index.html](index.html) page, there is an object literal included that can be used to alter the animation speed in, delay and the speed out of the slides. Adjusting the numbers below will yield different animation speed results, care should be taken when using this, as too much speed could potentially limit the time taken to read a given slide, and too slow a value could give the impression that nothing is happening at all!
 
 ```javascript
- var sliderCustomiser = {
+ var carouselCustomiser = {
   speedIn:.5,
   delay:5,
   speedOut:.25
