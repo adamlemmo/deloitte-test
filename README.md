@@ -1,6 +1,6 @@
 #Deloitte test  - Adam Lemmo  - 2017-02-22
 
->  Note:- A Word document has been created of this document with nicer formatting, go here:-  [deloitte-adamlemmo-2017-02-22-readme.doc](deloitte-adamlemmo-2017-02-22-readme.doc).
+>  Note:- A Word document has been created of this document with nicer formatting, go here:-  [deloitte-adamlemmo-2017-02-22-readme.doc](deloitte-adamlemmo-2017-02-22-readme.doc) (although this readme will be more up to date).
 
 ##Files included:- 
 
