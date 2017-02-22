@@ -3,22 +3,25 @@ Note:- A Word document has been created from this document, check it out in the 
 #Deloitte test  - Adam Lemmo  - 2017-02-22
 
 ##Files included:- 
-index.html 	- The main HTML file
-css/bootstrap.css -	Bootstrap main css
-css/ie10-viewport-bug-workaround.css -	Bootstrap IE10 css bug css
-css/deloitte-test.css -	The specific styles for the test, including Bootstrap overrides
-img/carousel-arrow-left.png -	Left arrow for the carousel
-img/carousel-arrow-right.png  -	Right arrow for the carousel
-img/carousel-menu-dot.png -	Sprite image for the indicator dot of the carousel
-img/feature-image-001.png -	Used as a background image for one of the carousel slides
-img/feature-image-002.png -	Used as a background image for another of the carousel slides
-img/image-placeholder-portrait.png -	Placeholder image in portrait orientation
-img/image-placeholder-project.png -	Small project image used at the end of the page
-img/image-placeholder-landscape.png -	Placeholder image in landscape orientation
-js/bootstrap.min.js	- Main bootstrap Javascript file
-js/carousel.js	- Carousel Javascript file
-js/jquery.min.js	- Jquery Javascript file
-js/modal.js	Modal Javascript file
+
+| File name and path       | Description           | 
+|:------------- |:-------------| 
+|index.html | The main HTML file|
+|css/bootstrap.css |	Bootstrap main css|
+|css/ie10|viewport|bug|workaround.css |	Bootstrap IE10 css bug css|
+|css/deloitte|test.css |	The specific styles for the test, including Bootstrap overrides|
+|img/carousel|arrow|left.png |	Left arrow for the carousel|
+|img/carousel|arrow|right.png  |	Right arrow for the carousel|
+|img/carousel|menu|dot.png |	Sprite image for the indicator dot of the carousel|
+|img/feature|image|001.png |	Used as a background image for one of the carousel slides|
+|img/feature|image|002.png |	Used as a background image for another of the carousel slides|
+|img/image|placeholder|portrait.png |	Placeholder image in portrait orientation|
+|img/image|placeholder|project.png |	Small project image used at the end of the page|
+|img/image|placeholder|landscape.png |	Placeholder image in landscape orientation|
+|js/bootstrap.min.js	| Main bootstrap Javascript file|
+|js/carousel.js	| Carousel Javascript file|
+|js/jquery.min.js	| Jquery Javascript file|
+|js/modal.js	| Modal Javascript file|
 
  
 #General methodology
@@ -84,7 +87,7 @@ Duplication of the highlighted code below, will result in a new slide being adde
 ##Modifying a slide
 
 The contents of the div with the slide-content class can be modified with specific text, predefined classes are provided for standard slide elements.
-```
+```html
 <!-- carousel -->
 <div class="container carousel">
  <div id="carousel">
@@ -110,15 +113,15 @@ The contents of the div with the slide-content class can be modified with specif
 ##Configuration options
 
 At the bottom of the index.html page, there is an object literal included that can be used to alter the animation speed in, delay and the speed out of the slides. Adjusting the highlighted numbers below will yield different animation speed results, care should be provided when using this, as too much speed could potentially limit the time taken to read a given slide, and too slow could give the impression that nothing is happening!
-```
-<script language="javascript" type="text/javascript">
+
+```javascript
  var sliderCustomiser = {
   speedIn:.5,
   delay:5,
   speedOut:.25
  };
-</script>
-```
+ ```
+
 #Modal
 The Bootstrap modal has been used as a basis for the modal on this page. The CSS of this element has been altered to appear as per the PSD provided. The functionality was written based on the brief given, see issues (2) below for more of a description of this.
  
