@@ -29,7 +29,7 @@
 In writing the code for the various parts of this test, I have included comments throughout in order to 1. make sense of the code myself, and 2. help others who are reading this also make sense of the code. This is by no means a perfect process, it makes sense to the author, but a third party might find it difficult, I am open to conversation about this, as working in a team can reveal different ways to approach this subject, I’ve done my best!
 
 #Browsers
-The `index.html` page was checked in the latest versions of Google Chrome, Internet Explorer 11, Microsoft Edge and Firefox.
+The [index.html](index.html) page was checked in the latest versions of Google Chrome, Internet Explorer 11, Microsoft Edge and Firefox.
 The main development browser used was Chrome, mainly due to speed and development tools, such as the code inspector and Javascript console for debugging. The responsiveness of the page was checked in Chrome and Firefox, using their respective development tools, desktop, mobile and tablet sizes were checked.
 
 #HTML
@@ -139,6 +139,3 @@ With this in mind, I have not included the [+] plus icon on the images with capt
 ![alt tag](http://adamlemmo.com/deloitte-test/readme-img/tricky-image-captions.png)
 
 This would require either more time to work out a proper solution, or going back to the designer and suggesting a different layout that may work a bit nicer.
-
-
-
