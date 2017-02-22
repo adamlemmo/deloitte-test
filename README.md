@@ -8,16 +8,16 @@ Note:- A Word document has been created from this document, check it out in the 
 |:------------- |:-------------| 
 |index.html | The main HTML file|
 |css/bootstrap.css |	Bootstrap main css|
-|css/ie10|viewport|bug|workaround.css |	Bootstrap IE10 css bug css|
-|css/deloitte|test.css |	The specific styles for the test, including Bootstrap overrides|
-|img/carousel|arrow|left.png |	Left arrow for the carousel|
-|img/carousel|arrow|right.png  |	Right arrow for the carousel|
-|img/carousel|menu|dot.png |	Sprite image for the indicator dot of the carousel|
-|img/feature|image|001.png |	Used as a background image for one of the carousel slides|
-|img/feature|image|002.png |	Used as a background image for another of the carousel slides|
-|img/image|placeholder|portrait.png |	Placeholder image in portrait orientation|
-|img/image|placeholder|project.png |	Small project image used at the end of the page|
-|img/image|placeholder|landscape.png |	Placeholder image in landscape orientation|
+|css/ie10-viewport-bug-workaround.css |	Bootstrap IE10 css bug css|
+|css/deloitte-test.css |	The specific styles for the test, including Bootstrap overrides|
+|img/carousel-arrow-left.png |	Left arrow for the carousel|
+|img/carousel-arrow-right.png  |	Right arrow for the carousel|
+|img/carousel-menu-dot.png |	Sprite image for the indicator dot of the carousel|
+|img/feature-image-001.png |	Used as a background image for one of the carousel slides|
+|img/feature-image-002.png |	Used as a background image for another of the carousel slides|
+|img/image-placeholder-portrait.png |	Placeholder image in portrait orientation|
+|img/image-placeholder-project.png |	Small project image used at the end of the page|
+|img/image-placeholder-landscape.png |	Placeholder image in landscape orientation|
 |js/bootstrap.min.js	| Main bootstrap Javascript file|
 |js/carousel.js	| Carousel Javascript file|
 |js/jquery.min.js	| Jquery Javascript file|
