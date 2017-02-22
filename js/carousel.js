@@ -3,19 +3,19 @@ $(document).ready(function(){
 	var slideNum = $("#carousel-slides .slide").length;//number of slides
 	var slideNubWidth = 30;//arbitrary width specified, could have retrieved from the DOM, but the element doesn't exist yet!
 	//show the first slide...
-	doSlide($("#carousel-slides .slide").eq(0), 0, sliderCustomiser);//run the doSlide function for the first time.
+	doSlide($("#carousel-slides .slide").eq(0), 0, carouselCustomiser);//run the doSlide function for the first time.
 	//arrow click events...
 	$(".carousel-arrow.carousel-arrow-left").click(function(e){
 		var currentSlideNum = $("#carousel-slides .slide:visible").index();		
 		if(currentSlideNum > 0){
-			doSlide($("#carousel-slides .slide").eq(currentSlideNum-1),currentSlideNum-1,sliderCustomiser);
+			doSlide($("#carousel-slides .slide").eq(currentSlideNum-1),currentSlideNum-1,carouselCustomiser);
 		}
 		e.preventDefault();
 	});
 	$(".carousel-arrow.carousel-arrow-right").click(function(e){
 		var currentSlideNum = $("#carousel-slides .slide:visible").index();		
 		if(currentSlideNum < (slideNum-1) ){
-			doSlide($("#carousel-slides .slide").eq(currentSlideNum+1),currentSlideNum+1,sliderCustomiser);
+			doSlide($("#carousel-slides .slide").eq(currentSlideNum+1),currentSlideNum+1,carouselCustomiser);
 		}
 		e.preventDefault();
 	});
@@ -28,7 +28,7 @@ $(document).ready(function(){
 	//click event for the menu items created above...
 	$("#carousel #carousel-menu li a").click(function(e){//when a slide is clicked...
 		var thisBtnNum = $(this).parent().index();//get the id of the element..
-		doSlide($("#carousel-slides .slide").eq(thisBtnNum),thisBtnNum,sliderCustomiser);
+		doSlide($("#carousel-slides .slide").eq(thisBtnNum),thisBtnNum,carouselCustomiser);
 		e.preventDefault();
 	});
 	//now that the menu is all created, set the width of the menu to the amount of items in the list!
