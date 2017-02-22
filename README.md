@@ -130,7 +130,7 @@ The Bootstrap modal has been used as a basis for the modal on this page. The CSS
 
 2.	The implied functionality of the UI in the PSD, indicates that the [+] plus icon overlaid on the large images, is intended to be the selection for the modal box, but the PSD indicates that this [+] plus icon be present for all large images without captions, the brief mentions the following...
 
-   “Large images without captions will have a modal window that displays the caption on click of the image.” 
+   > “Large images without captions will have a modal window that displays the caption on click of the image.” 
 
    With this in mind, I have not included the [+] plus icon on the images with captions, and only included the icon on images without a caption represented in the PSD.
 
