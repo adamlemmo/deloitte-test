@@ -42,6 +42,10 @@ Accessibility has been considered in that all elements that link to something ar
 #Carousel
 The carousel was built entirely by myself, it functions largely using the jQuery Animate function. I have used this functionality of jQuery on several occasions before, and I am happy with the results.
 
+Here’s a diagram describing the anatomy of the carousel.
+
+![alt tag](http://adamlemmo.com/deloitte-test/readme-img/carousel-anatomy.png)
+
 By default, the carousel automatically animates, but this can be easily switched off if required.
 
 The arrows change the carousel slides either forward (2) through the list of supplied slides, or backward (1), depending on which arrow link is selected. The menu (3) at the bottom of the carousel can also be used to switch to a specific slide as well. 
@@ -118,7 +122,9 @@ The Bootstrap modal has been used as a basis for the modal on this page. The CSS
 
 With this in mind, I have not included the [+] plus icon on the images with captions, and only included the icon on images without a caption represented in the PSD.
 
-3.	Under the heading “More Layouts” the captions for the images in the second row, (the smaller images that are side-by-side) have an unusual image caption requirement. Specifically, I couldn’t work out a way to nicely, and semantically, associate the caption with the images in that second row, refer to the file "deloitte-adamlemmo-2017-02-22-readme.doc" for further info.
+3.	Under the heading “More Layouts” the captions for the images in the second row, (the smaller images that are side-by-side) have an unusual image caption requirement. Specifically, I couldn’t work out a way to nicely, and semantically, associate the caption with the images in that second row, here’s a screenshot to illustrate the issue.
+
+![alt tag](http://adamlemmo.com/deloitte-test/readme-img/tricky-image-captions.png)
 
 This would require either more time to work out a proper solution, or going back to the designer and suggesting a different layout that may work a bit nicer.
 
