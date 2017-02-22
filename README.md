@@ -60,7 +60,7 @@ The Javascript has been written in such a way as to allow for more than the defa
 #Customisation
 
 ##Adding a slide
-Duplication of the highlighted code below, will result in a new slide being added to the carousel. The classes, slide and slide-content are mandatory for optimal appearance.
+Duplication of the div tag with the `slide` class below, will result in a new slide being added to the carousel. The two classes, `slide` and `slide-content` are mandatory for optimal appearance.
 ```html
 <!-- carousel -->
 <div class="container carousel">
@@ -112,7 +112,7 @@ The contents of the div with the slide-content class can be modified with specif
 
 ##Configuration options
 
-At the bottom of the index.html page, there is an object literal included that can be used to alter the animation speed in, delay and the speed out of the slides. Adjusting the highlighted numbers below will yield different animation speed results, care should be provided when using this, as too much speed could potentially limit the time taken to read a given slide, and too slow could give the impression that nothing is happening!
+At the bottom of the index.html page, there is an object literal included that can be used to alter the animation speed in, delay and the speed out of the slides. Adjusting the numbers below will yield different animation speed results, care should be taken when using this, as too much speed could potentially limit the time taken to read a given slide, and too slow a value could give the impression that nothing is happening at all!
 
 ```javascript
  var sliderCustomiser = {
