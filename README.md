@@ -2,7 +2,7 @@
 
 >  Note:- A Word document has been created of this document with nicer formatting, go here:-  [deloitte-adamlemmo-2017-02-22-readme.doc](docs/deloitte-adamlemmo-2017-02-22-readme.doc) (although this readme will be more up to date).
 
-##A description of the files included:- 
+##Description of the files included 
 
 | File name and path       | Description           | 
 |:------------- |:-------------| 
@@ -23,26 +23,26 @@
 |[js/jquery.min.js](js/jquery.min.js)	| Jquery Javascript file|
 |[js/modal.js](js/modal.js)	| Modal Javascript file|
  
-#Comments to document code
+##Comments to document code
 In writing the code for the various parts of this test, I have included comments throughout in order to 1. make sense of the code myself, and 2. help others who are reading this also make sense of the code. This is by no means a perfect process, it makes sense to the author, but a third party might find it difficult, I am open to conversation about this, as working in a team can reveal different ways to approach this subject, I’ve done my best!
 
-#Browser Compatibility
+##Browser Compatibility
 The [index.html](index.html) page was checked in the latest versions of Google Chrome, Internet Explorer 11, Microsoft Edge and Firefox.
 The main development browser used was Chrome, mainly due to speed and development tools, such as the code inspector and Javascript console for debugging. The responsiveness of the page was checked in Chrome and Firefox, using their respective development tools, desktop, mobile and tablet sizes were checked.
 
-#HTML
+##HTML
 I have written all of the HTML myself, using the Bootstrap grid as a basis. I have used the HTML5 elements `<figure>` and `<figcaption>` for a more semantic page.
 
-#CSS
+##CSS
 The css of this page uses Bootstrap as a starting point, mainly for its responsive grid system. I have included a custom CSS file that adds new classes and overrides some Bootstrap styles, the majority of the work has been done in the [deloitte-test.css](css/deloitte-test.css) css file.
 
-#Javascript
+##Javascript
 I have written all of the Javascript in the [carousel.js](carousel.js) and [modal.js](modal.js) files. I have separated these out into their own files for more targeted editing of each given functionality.
 
-#Accessibility
+##Accessibility
 Accessibility has been considered in that all elements that link to something are using an `<a href=”#”>` so as to expose these to assistive technologies. No custom tab order has been used, all elements should naturally flow with the normal tab behavior of the browser. Also the `<figure>` and `<figcaption>` tags have been used as mentioned above, in an attempt to relate the captions to their respective images.
 
-#Carousel
+##Carousel
 The carousel was built entirely by myself, it functions largely using the jQuery Animate function. I have used this functionality of jQuery on several occasions before, and I am happy with the results.
 
 Here’s a diagram describing the anatomy of the carousel.
@@ -55,9 +55,9 @@ The arrows change the carousel slides either forward (2) through the list of sup
 
 The Javascript has been written in such a way as to allow for more than the default amount of slides to be added, also this number can be subtracted as well.
 
-#Customisation
+###Customisation
 
-##Adding a slide
+####Adding a slide
 Duplication of the div tag with the `slide` class below, will result in a new slide being added to the carousel. The two classes, `slide` and `slide-content` are mandatory for the optimal appearance of a slide.
 ```html
 <!-- carousel -->
@@ -82,7 +82,7 @@ Duplication of the div tag with the `slide` class below, will result in a new sl
 </div>
 ```
 
-##Modifying a slide
+####Modifying a slide
 
 The contents of the div with the slide-content class can be modified with specific text, predefined classes are provided for standard slide elements.
 ```html
@@ -108,7 +108,7 @@ The contents of the div with the slide-content class can be modified with specif
 </div>
 ```
 
-##Configuration options
+####Configuration options
 
 At the bottom of the [index.html](index.html) page, there is an object literal included that can be used to alter the animation speed in, delay and the speed out of the slides. Adjusting the numbers below will yield different animation speed results, care should be taken when using this, as too much speed could potentially limit the time taken to read a given slide, and too slow a value could give the impression that nothing is happening at all!
 
@@ -120,10 +120,10 @@ At the bottom of the [index.html](index.html) page, there is an object literal i
  };
  ```
 
-#Modal
+##Modal
 The Bootstrap modal has been used as a basis for the modal on this page. The CSS of this element has been altered to appear as per the PSD provided. The functionality was written based on the brief given, see issues (2) below for more of a description of this.
  
-#Issues
+##Issues
 1.	The fonts referred to in the PSD file were not present on my computer, and so these were substituted with a close match to what is presented in the PSD.
 
 2.	The implied functionality of the UI in the PSD, indicates that the [+] plus icon overlaid on the large images, is intended to be the selection for the modal box, but the PSD indicates that this [+] plus icon be present for all large images without captions, the brief mentions the following...
