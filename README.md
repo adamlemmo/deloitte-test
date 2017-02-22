@@ -51,10 +51,6 @@ Here’s a diagram describing the anatomy of the carousel.
 
    ![alt text](docs/carousel-anatomy.png "Carousel Anatomy")
 
-   1.	Back arrow
-   2.	Left arrow
-   3.	Carousel menu
-
 By default, the carousel automatically animates, but this can be easily switched off if required.
 
 The arrows change the carousel slides either forward (2) through the list of supplied slides, or backward (1), depending on which arrow link is selected. The menu (3) at the bottom of the carousel can also be used to switch to a specific slide as well. 
