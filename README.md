@@ -49,11 +49,11 @@ The carousel was built entirely by myself, it functions largely using the jQuery
 
 Here’s a diagram describing the anatomy of the carousel.
 
-![alt text](docs/carousel-anatomy.png "Carousel Anatomy")
+   ![alt text](docs/carousel-anatomy.png "Carousel Anatomy")
 
-1.	Back arrow
-2.	Left arrow
-3.	Carousel menu
+   1.	Back arrow
+   2.	Left arrow
+   3.	Carousel menu
 
 By default, the carousel automatically animates, but this can be easily switched off if required.
 
@@ -140,7 +140,6 @@ The Bootstrap modal has been used as a basis for the modal on this page. The CSS
 
 3.	Under the heading “More Layouts” the captions for the images in the second row, (the smaller images that are side-by-side) have an unusual image caption requirement. Specifically, I couldn’t work out a way to nicely, and semantically, associate the caption with the images in that second row, here’s a screenshot to illustrate the issue.
 
-![alt text](docs/tricky-image-captions.png "Tricky Image Captions")
+   ![alt text](docs/tricky-image-captions.png "Tricky Image Captions")
 
-
-This would require either more time to work out a proper solution, or going back to the designer and suggesting a different layout that may work a bit nicer.
+   This would require either more time to work out a proper solution, or going back to the designer and suggesting a different layout that may work a bit nicer.
