@@ -36,7 +36,7 @@ The main development browser used was Chrome, mainly due to speed and developmen
 I have written all of the HTML myself, using the Bootstrap grid as a basis. I have used the HTML5 elements `<figure>` and `<figcaption>` for a more semantic page.
 
 #CSS
-The css of this page uses Bootstrap as a starting point, mainly for its responsive grid system. I have included a custom CSS file that adds new classes and overrides some Bootstrap styles, the majority of the work has been done in the [css/deloitte-test.css](css/deloitte-test.css) css file.
+The css of this page uses Bootstrap as a starting point, mainly for its responsive grid system. I have included a custom CSS file that adds new classes and overrides some Bootstrap styles, the majority of the work has been done in the [deloitte-test.css](css/deloitte-test.css) css file.
 
 #Javascript
 I have written all of the Javascript in the [carousel.js](carousel.js) and [modal.js](modal.js) files. I have separated these out into their own files for more targeted editing of each given functionality.
