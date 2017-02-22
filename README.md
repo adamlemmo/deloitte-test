@@ -28,9 +28,8 @@
 In writing the code for the various parts of this test, I have included comments throughout in order to 1. make sense of the code myself, and 2. help others who are reading this also make sense of the code. This is by no means a perfect process, it makes sense to the author, but a third party might find it difficult, I am open to conversation about this, as working in a team can reveal different ways to approach this subject, I’ve done my best!
 
 #Browsers
-The index.html page was checked in Google Chrome, Internet Explorer 11, Microsoft Edge and Firefox.
-The main development browser used was Google Chrome, mainly due to speed and development tools, such as the code inspector and Javascript console for debugging.
-The responsiveness of the page was checked in Chrome and Firefox, using their respective development tools, desktop, mobile and tablet sizes were checked.
+The `index.html` page was checked in the latest versions of Google Chrome, Internet Explorer 11, Microsoft Edge and Firefox.
+The main development browser used was Chrome, mainly due to speed and development tools, such as the code inspector and Javascript console for debugging. The responsiveness of the page was checked in Chrome and Firefox, using their respective development tools, desktop, mobile and tablet sizes were checked.
 
 #HTML
 I have written all of the HTML myself, using the Bootstrap grid as a basis. I have used the HTML5 elements `<figure>` and `<figcaption>` for a more semantic page.
