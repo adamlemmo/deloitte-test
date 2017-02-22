@@ -18,12 +18,10 @@
 |[img/image-placeholder-portrait.png](img/image-placeholder-portrait.png) |	Placeholder image in portrait orientation|
 |[img/image-placeholder-project.png](img/image-placeholder-project.png) |	Small project image used at the end of the page|
 |[img/image-placeholder-landscape.png](img/image-placeholder-landscape.png) |	Placeholder image in landscape orientation|
-|[js/bootstrap.min.js](js/bootstrap.min.js)	| Main bootstrap Javascript file|
+|[js/bootstrap.min.js](js/bootstrap.min.js)	| Main Bootstrap Javascript file|
 |[js/carousel.js](js/carousel.js)	| Carousel Javascript file|
 |[js/jquery.min.js](js/jquery.min.js)	| Jquery Javascript file|
 |[js/modal.js](js/modal.js)	| Modal Javascript file|
-
-
  
 #General methodology
 In writing the code for the various parts of this test, I have included comments throughout in order to 1. make sense of the code myself, and 2. help others who are reading this also make sense of the code. This is by no means a perfect process, it makes sense to the author, but a third party might find it difficult, I am open to conversation about this, as working in a team can reveal different ways to approach this subject, I’ve done my best!
