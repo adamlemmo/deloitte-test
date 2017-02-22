@@ -1,10 +1,8 @@
-Refer to the file "deloitte-adamlemmo-2017-02-22-readme.doc" for further information on the status of this test.
+Note:- A Word document has been created from this document, check it out in the repository files for nicer formatting here:-  "deloitte-adamlemmo-2017-02-22-readme.doc".
 
-Text version follows
+#Deloitte test  - Adam Lemmo  - 2017-02-22
 
-Deloitte test  - Adam Lemmo  - 2017-02-22
-
-Files included:- 
+##Files included:- 
 index.html 	- The main HTML file
 css/bootstrap.css -	Bootstrap main css
 css/ie10-viewport-bug-workaround.css -	Bootstrap IE10 css bug css
@@ -25,19 +23,23 @@ js/modal.js	Modal Javascript file
  
 #General methodology
 In writing the code for the various parts of this test, I have included comments throughout in order to 1. make sense of the code myself, and 2. help others who are reading this also make sense of the code. This is by no means a perfect process, it makes sense to the author, but a third party might find it difficult, I am open to conversation about this, as working in a team can reveal different ways to approach this subject, I’ve done my best!
+
 #Browsers
 The index.html page was checked in Google Chrome, Internet Explorer 11, Microsoft Edge and Firefox.
 The main development browser used was Google Chrome, mainly due to speed and development tools, such as the code inspector and Javascript console for debugging.
 The responsiveness of the page was checked in Chrome and Firefox, using their respective development tools, desktop, mobile and tablet sizes were checked.
+
 #HTML
 I have written all of the HTML myself, using the Bootstrap grid as a basis. I have used the HTML5 elements <figure> and <figcaption> for a more semantic page.
+
 #CSS
 The css of this page uses Bootstrap as a starting point, mainly for its responsive grid system. I have included a custom CSS file that adds new classes and overrides some Bootstrap styles, the majority of the work has been done in the css/deloitte-test.css css file.
+
 #Javascript
 I have written all of the Javascript in the carousel.js and modal.js files. I have separated these out into their own files for more targeted editing of each given functionality.
-Accessibility
+
+#Accessibility
 Accessibility has been considered in that all elements that link to something are using an <a href=”#”> so as to expose these to assistive technologies. No custom tab order has been used, all elements should naturally flow with the normal tab behavior of the browser. Also the <figure> and <figcaption> tags have been used as mentioned above, in an attempt to relate the captions to their respective images.
- 
 
 #Carousel
 The carousel was built entirely by myself, it functions largely using the jQuery Animate function. I have used this functionality of jQuery on several occasions before, and I am happy with the results.
@@ -53,7 +55,8 @@ The arrows change the carousel slides either forward (2) through the list of sup
 The Javascript has been written in such a way as to allow for more than the default amount of slides to be added, also this number can be subtracted as well.
 
 #Customisation
-#Adding a slide
+
+##Adding a slide
 Duplication of the highlighted code below, will result in a new slide being added to the carousel. The classes, slide and slide-content are mandatory for optimal appearance.
 
 <!-- carousel -->
@@ -76,7 +79,8 @@ Duplication of the highlighted code below, will result in a new slide being adde
   <a href="#" class="carousel-arrow carousel-arrow-right"></a>
  </div>
 </div>
-#Modifying a slide
+
+##Modifying a slide
 
 The contents of the div with the slide-content class can be modified with specific text, predefined classes are provided for standard slide elements.
 <!-- carousel -->
@@ -100,7 +104,8 @@ The contents of the div with the slide-content class can be modified with specif
  </div>
 </div>
 
-#Configuration options
+##Configuration options
+
 At the bottom of the index.html page, there is an object literal included that can be used to alter the animation speed in, delay and the speed out of the slides. Adjusting the highlighted numbers below will yield different animation speed results, care should be provided when using this, as too much speed could potentially limit the time taken to read a given slide, and too slow could give the impression that nothing is happening!
 <script language="javascript" type="text/javascript">
  var sliderCustomiser = {
