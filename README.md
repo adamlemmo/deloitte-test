@@ -130,9 +130,9 @@ The Bootstrap modal has been used as a basis for the modal on this page. The CSS
 
 2.	The implied functionality of the UI in the PSD, indicates that the [+] plus icon overlaid on the large images, is intended to be the selection for the modal box, but the PSD indicates that this [+] plus icon be present for all large images without captions, the brief mentions the following...
 
-⋅⋅⋅“Large images without captions will have a modal window that displays the caption on click of the image.” 
+   “Large images without captions will have a modal window that displays the caption on click of the image.” 
 
-⋅⋅⋅With this in mind, I have not included the [+] plus icon on the images with captions, and only included the icon on images without a caption represented in the PSD.
+   With this in mind, I have not included the [+] plus icon on the images with captions, and only included the icon on images without a caption represented in the PSD.
 
 3.	Under the heading “More Layouts” the captions for the images in the second row, (the smaller images that are side-by-side) have an unusual image caption requirement. Specifically, I couldn’t work out a way to nicely, and semantically, associate the caption with the images in that second row, here’s a screenshot to illustrate the issue.
 
