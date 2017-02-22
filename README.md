@@ -1,6 +1,22 @@
 #Deloitte test  - Adam Lemmo  - 2017-02-22
 
->  Note:- A Word document has been created of this document with nicer formatting, go here:-  [deloitte-adamlemmo-2017-02-22-readme.doc](docs/deloitte-adamlemmo-2017-02-22-readme.doc) (although this readme will be more up to date).
+##Introduction
+
+The brief was to create a page based on a Photoshop PSD located here:-
+
+> https://www.dropbox.com/s/i2utt71o8orb0mj/Deloitte%20PSD.zip?dl=0.
+
+And a description indicating the following:-
+
+> * Browser requirements are desktop IE11+, latest versions of Chrome, Firefox, Edge. Please let us know which browser you’ve used to develop in (e.g. Chrome/Firefox)
+* This site is responsive with a minimum size of 320px and at least should support iPad portrait and landscape.
+* Unfortunately, the designer hasn’t done mobile designs and would like you to recommend the solution directly in the HTML so they can review it after you’ve built it.
+* JS functionality (you can use jQuery as well if you like):
+* The designer has requested a carousel. The animation can be chosen by you and it should also work on mobile
+* Large images without captions will have a modal window that displays the caption on click of the image.
+* Please annotate anywhere you think there might be accessibility issues and how you might get around them.
+
+With this in mind, I have created what follows.
 
 ##Description of the files included 
 
