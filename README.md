@@ -30,7 +30,7 @@ The main development browser used was Google Chrome, mainly due to speed and dev
 The responsiveness of the page was checked in Chrome and Firefox, using their respective development tools, desktop, mobile and tablet sizes were checked.
 
 #HTML
-I have written all of the HTML myself, using the Bootstrap grid as a basis. I have used the HTML5 elements <figure> and <figcaption> for a more semantic page.
+I have written all of the HTML myself, using the Bootstrap grid as a basis. I have used the HTML5 elements `<figure>` and `<figcaption>` for a more semantic page.
 
 #CSS
 The css of this page uses Bootstrap as a starting point, mainly for its responsive grid system. I have included a custom CSS file that adds new classes and overrides some Bootstrap styles, the majority of the work has been done in the css/deloitte-test.css css file.
@@ -39,7 +39,7 @@ The css of this page uses Bootstrap as a starting point, mainly for its responsi
 I have written all of the Javascript in the carousel.js and modal.js files. I have separated these out into their own files for more targeted editing of each given functionality.
 
 #Accessibility
-Accessibility has been considered in that all elements that link to something are using an <a href=”#”> so as to expose these to assistive technologies. No custom tab order has been used, all elements should naturally flow with the normal tab behavior of the browser. Also the <figure> and <figcaption> tags have been used as mentioned above, in an attempt to relate the captions to their respective images.
+Accessibility has been considered in that all elements that link to something are using an `<a href=”#”>` so as to expose these to assistive technologies. No custom tab order has been used, all elements should naturally flow with the normal tab behavior of the browser. Also the `<figure>` and `<figcaption>` tags have been used as mentioned above, in an attempt to relate the captions to their respective images.
 
 #Carousel
 The carousel was built entirely by myself, it functions largely using the jQuery Animate function. I have used this functionality of jQuery on several occasions before, and I am happy with the results.
@@ -58,7 +58,7 @@ The Javascript has been written in such a way as to allow for more than the defa
 
 ##Adding a slide
 Duplication of the highlighted code below, will result in a new slide being added to the carousel. The classes, slide and slide-content are mandatory for optimal appearance.
-
+```html
 <!-- carousel -->
 <div class="container carousel">
  <div id="carousel">
@@ -79,10 +79,12 @@ Duplication of the highlighted code below, will result in a new slide being adde
   <a href="#" class="carousel-arrow carousel-arrow-right"></a>
  </div>
 </div>
+```
 
 ##Modifying a slide
 
 The contents of the div with the slide-content class can be modified with specific text, predefined classes are provided for standard slide elements.
+```
 <!-- carousel -->
 <div class="container carousel">
  <div id="carousel">
@@ -103,10 +105,12 @@ The contents of the div with the slide-content class can be modified with specif
   <a href="#" class="carousel-arrow carousel-arrow-right"></a>
  </div>
 </div>
+```
 
 ##Configuration options
 
 At the bottom of the index.html page, there is an object literal included that can be used to alter the animation speed in, delay and the speed out of the slides. Adjusting the highlighted numbers below will yield different animation speed results, care should be provided when using this, as too much speed could potentially limit the time taken to read a given slide, and too slow could give the impression that nothing is happening!
+```
 <script language="javascript" type="text/javascript">
  var sliderCustomiser = {
   speedIn:.5,
@@ -114,14 +118,14 @@ At the bottom of the index.html page, there is an object literal included that c
   speedOut:.25
  };
 </script>
-
+```
 #Modal
 The Bootstrap modal has been used as a basis for the modal on this page. The CSS of this element has been altered to appear as per the PSD provided. The functionality was written based on the brief given, see issues (2) below for more of a description of this.
  
 #Issues
 1.	The fonts referred to in the PSD file were not present on my computer, and so these were substituted with a close match to what is presented in the PSD.
 
-2.	The implied functionality of the UI in the PSD, indicates that the [+] plus icon overlaid on the large images, is intended to be the selection for the modal box, but the PSD indicates that this [+] plus icon be present for all large images without captions, the brief mentions the following…
+2.	The implied functionality of the UI in the PSD, indicates that the [+] plus icon overlaid on the large images, is intended to be the selection for the modal box, but the PSD indicates that this [+] plus icon be present for all large images without captions, the brief mentions the following...
 
 “Large images without captions will have a modal window that displays the caption on click of the image.” 
 
