@@ -6,22 +6,23 @@
 
 | File name and path       | Description           | 
 |:------------- |:-------------| 
-|`index.html` | The main HTML file|
-|`css/bootstrap.css` |	Bootstrap main css|
-|`css/ie10-viewport-bug-workaround.css` |	Bootstrap IE10 css bug css|
-|`css/deloitte-test.css` |	The specific styles for the test, including Bootstrap overrides|
-|`img/carousel-arrow-left.png` |	Left arrow for the carousel|
-|`img/carousel-arrow-right.png`  |	Right arrow for the carousel|
-|`img/carousel-menu-dot.png` |	Sprite image for the indicator dot of the carousel|
-|`img/feature-image-001.png` |	Used as a background image for one of the carousel slides|
-|`img/feature-image-002.png` |	Used as a background image for another of the carousel slides|
-|`img/image-placeholder-portrait.png` |	Placeholder image in portrait orientation|
-|`img/image-placeholder-project.png` |	Small project image used at the end of the page|
-|`img/image-placeholder-landscape.png` |	Placeholder image in landscape orientation|
-|`js/bootstrap.min.js`	| Main bootstrap Javascript file|
-|`js/carousel.js`	| Carousel Javascript file|
-|`js/jquery.min.js`	| Jquery Javascript file|
-|`js/modal.js`	| Modal Javascript file|
+|[index.html](index.html) | The main HTML file|
+|[css/bootstrap.css](css/bootstrap.css) |	Bootstrap main css|
+|[css/ie10-viewport-bug-workaround.css](css/ie10-viewport-bug-workaround.css) |	Bootstrap IE10 css bug css|
+|[css/deloitte-test.css](css/deloitte-test.css) |	The specific styles for the test, including Bootstrap overrides|
+|[img/carousel-arrow-left.png](img/carousel-arrow-left.png) |	Left arrow for the carousel|
+|[img/carousel-arrow-right.png](img/carousel-arrow-right.png)  |	Right arrow for the carousel|
+|[img/carousel-menu-dot.png](img/carousel-menu-dot.png) |	Sprite image for the indicator dot of the carousel|
+|[img/feature-image-001.png](img/feature-image-001.png) |	Used as a background image for one of the carousel slides|
+|[img/feature-image-002.png](img/feature-image-002.png) |	Used as a background image for another of the carousel slides|
+|[img/image-placeholder-portrait.png](img/image-placeholder-portrait.png) |	Placeholder image in portrait orientation|
+|[img/image-placeholder-project.png](img/image-placeholder-project.png) |	Small project image used at the end of the page|
+|[img/image-placeholder-landscape.png](img/image-placeholder-landscape.png) |	Placeholder image in landscape orientation|
+|[js/bootstrap.min.js](js/bootstrap.min.js)	| Main bootstrap Javascript file|
+|[js/carousel.js](js/carousel.js)	| Carousel Javascript file|
+|[js/jquery.min.js](js/jquery.min.js)	| Jquery Javascript file|
+|[js/modal.js](js/modal.js)	| Modal Javascript file|
+
 
  
 #General methodology
